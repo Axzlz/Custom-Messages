@@ -1,0 +1,18 @@
+# Config version - Please do not attempt to change.
+Version: 1
+
+# This checks if you want to enable quit messages or not
+JoinEnabled: true
+# Custom join message:
+JoinMessage: "%player% Joined %server% with ping of %ping% and health %health%"
+
+# This checks if you want to enable quit messages or not
+QuitEnabled: false
+# Custom leave message:
+QuitMessage: "%player% Left %server% with health of %health%"
+
+# Placeholders:
+# %player% - Gets the player's username.
+# %server% - Displays the server's MOTD (Message of The Day).
+# %ping% - Player's current ping.
+# %health% - The amount of health the player does have.
